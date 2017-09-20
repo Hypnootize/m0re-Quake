@@ -257,8 +257,8 @@
 			"labelText"		"0:00"
 			if_match
 			{
-				"ypos"			"5"
 				"font"			"M0refont12"
+				"ypos"			"9"
 			}
 		}	
 	}

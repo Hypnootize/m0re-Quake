@@ -44,7 +44,7 @@
 			{
 				"font"	"M0refont12"
 				"xpos"	"36"
-				"ypos"	"1"
+				"ypos"	"4"
 			}
 		}	
 	}
@@ -86,7 +86,7 @@
 			{
 				"font"	"M0refont12"
 				"xpos"	"23"
-				"ypos"	"1"
+				"ypos"	"4"
 			}
 		}	
 	}

@@ -480,6 +480,17 @@ Scheme{Colors{
 				"dropshadow"	"1"
 			}
 		}
+		M0refont12
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont16
 		{
 			"1"
