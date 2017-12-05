@@ -1,34 +1,16 @@
 "GameMenu" [$WIN32]
 {
-	"ToggleScoreboard"
-	{
-		"label" "SCOREBOARD"
-		"command" "engine toggle cl_hud_minmode"
-		"OnlyInGame" "1"
-	}
 	"VersionNumber"
 	{
 		"label" "M0REHUD 2.0"
 		"command" "engine showconsole; echo www.M0re.fi"
 		"OnlyAtMenu" "1"
 	}
-	"Casual"
+	"ToggleScoreboard"
 	{
-		"label" "CASUAL" 
-		"command" "play_casual"
-		"OnlyAtMenu" "1"
-	}
-	"Competitive"
-	{
-		"label" "COMPETITIVE" 
-		"command" "play_competitive"
-		"OnlyAtMenu" "1"
-	}
-	"MvM"
-	{
-		"label" "MVM" 
-		"command" "play_mvm"
-		"OnlyAtMenu" "1"
+		"label" "SCOREBOARD"
+		"command" "engine toggle cl_hud_minmode"
+		"OnlyInGame" "1"
 	}
 	"FinderServers"
 	{
@@ -56,11 +38,10 @@
 		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 	}
-	"COACH"
+	"AdvancedOptions"
 	{
-		"label"			"COACH"
-		"command"		"engine cl_coach_toggle"
-		"OnlyInGame"	"1"
+		"label" "ADVANCED"
+		"command" "opentf2options"
 	}
 	"DEMOUI"
 	{
@@ -79,10 +60,7 @@
 		"label" "QUIT"
 		"command" "engine quit"
 	}
-	"9"
-	{
-		"label" "------------------------"
-	}	
+	
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
@@ -91,7 +69,7 @@
 		"command"		"callvote"
 		"subimage" "icon_checkbox"
 		"OnlyInGame" "1"
-		"tooltip" "#MMenu_CallVote"
+		"tooltip" "Call Vote"
 	}
 	"MutePlayersButton"
 	{
@@ -99,15 +77,15 @@
 		"command"		"OpenPlayerListDialog"
 		"subimage" "glyph_muted"
 		"OnlyInGame" "1"
-		"tooltip" "#MMenu_MutePlayers"
+		"tooltip" "Mute Players"
 	}
-	"RequestCoachButton"
+	"ReportButton"
 	{
 		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"subimage" "icon_whistle"
+		"command"		"OpenReportPlayerDialog"
+		"subimage" "glyph_alert"
 		"OnlyInGame" "1"
-		"tooltip" "#MMenu_RequestCoach"
+		"tooltip" "Report Player"
 	}
 	"AchievementsButton"
 	{
