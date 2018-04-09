@@ -105,7 +105,7 @@
 		"font"          "M0refont72"
 		"fgcolor"	     	"0 0 0 0"
 	}	
-														
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
