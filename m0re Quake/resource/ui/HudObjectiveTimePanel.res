@@ -7,7 +7,7 @@
 		"xpos"		        	"30"
 		"ypos"		        	"0"
 		"zpos"		        	"2"
-		"wide"		        	"0"		//41
+		"wide"		        	"0"
 		"tall"		         	"14"
 		"visible"	        	"1"
 		"enabled"	        	"1"
@@ -20,7 +20,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
+			"xpos"	"9999"
 		}
 	}
 	
@@ -42,6 +42,11 @@
 		"wrap" 					"0"
 		"font" 					"M0reFont12"
 		"fgcolor"				"255 255 255 255"
+		
+		if_match
+		{
+			"font" 				"M0refont10DropShadow"
+		}
 	}
 	
 	"ServerTimeLimitLabelBG"
@@ -56,6 +61,11 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"fillcolor"				"0 0 0 0"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}
 	
 	
