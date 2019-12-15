@@ -299,81 +299,34 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-175"
-		"ypos"			"cs-0.5-30"
-		"zpos"			"15"
-		"wide"			"15"
-		"tall"			"15"
+		"xpos"			"-120"
+		"ypos"			"-19"
+		"zpos"			"14"
+		"wide"			"200"
+		"tall"			"60"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"labelText"		""
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"use_proportional_insets"	"1"
 		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
-		"actionsignallevel" "1"
+		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
-				
-		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_depressed" 	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
-		"border_default"	""
-		"border_armed"		""
+		
 		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "255 0 127 255"
-		"depressedFgColor_override" "255 0 127 255"
-				
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"255 0 127 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-		}		
+		"paintborder"		"0"
+		
+		"alpha"				"0"
+		
+		"pin_to_sibling"		"RankPanel"
 	}
 
-	"RankTooltipPanel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"99"
-		"zpos"			"-1"
-		"wide"			"8"
-		"tall"			"0"	//8
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-		"image"			"info"
-		"scaleImage"	"1"	
-		"alpha"			"75"
-	}
-	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -393,19 +346,12 @@
 		"show_type"		"1"
 	}
 
-	"RankBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
-		"xpos"			"9999"
-	}
-	
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"r140"
-		"ypos"			"150"
+		"xpos"			"r112"
+		"ypos"			"105"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"300"
@@ -418,10 +364,9 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"Coolvetica"
-			"AllCaps"		"1"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
-			"xpos"			"10"
+			"xpos"			"0"
 			"ypos"			"5"
 			"wide"			"f0"
 			"tall"			"30"
@@ -433,30 +378,12 @@
 			"fgcolor_override"	"255 255 255 255"
 		}
 
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"501"
-			"wide"			"f20"
-			"tall"			"110"
-			"visible"		"0"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
-			"border"		"InnerShadowBorder"
-		}
-
 		"SteamFriendsList"
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"xpos"			"2"
+			"ypos"			"32"
 			"zpos"			"500"
 			"wide"			"f20"
 			"tall"			"260"
@@ -464,9 +391,9 @@
 			"proportionaltoparent"	"1"
 
 			"columns_count"	"1"
-			"inset_x"		"10"
-			"inset_y"		"5"
-			"row_gap"		"5"
+			"inset_x"		"0"
+			"inset_y"		"0"
+			"row_gap"		"2"
 			"column_gap"	"20"
 			"restrict_width"	"0"
 
@@ -480,7 +407,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1+1"
+				"xpos"			"106"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -513,11 +440,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
-			"xpos"			"cs-.5"
-			"ypos"			"rs1-10"
+			"xpos"			"0"
+			"ypos"			"30"
 			"zpos"			"499"
-			"wide"			"f20"
-			"tall"			"260"
+			"wide"			"112"
+			"tall"			"265"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"

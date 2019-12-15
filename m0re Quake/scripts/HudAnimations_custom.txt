@@ -6,8 +6,8 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"50"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
 	Animate PlayerStatusHealthvalueSpecgui alpha 255 linear 0.0 0.01
 	Animate PlayerStatusHealthvalueSpecgui FgColor "24 116 205 255" Accel 0.0 0.0

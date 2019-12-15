@@ -481,6 +481,17 @@ Scheme{Colors{
 				"antialias" "1"
 			}
 		}
+		M0refont10
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont10DropShadow
 		{
 			"1"
@@ -558,6 +569,28 @@ Scheme{Colors{
 				"outline"	"1"
 			}
 		}
+		M0refont28
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		M0refont32
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont36
 		{
 			"1"
@@ -586,6 +619,17 @@ Scheme{Colors{
 			{
 				"name"		"Handel Gothic BT"
 				"tall"		"48"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		M0refont56
+		{
+			"1"
+			{
+				"name"		"Handel Gothic BT"
+				"tall"		"56"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
