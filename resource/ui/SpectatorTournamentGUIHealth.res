@@ -68,7 +68,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"DefaultNumber"
+		"font"					"M0refont10"
 		"fgcolor"		    "255 255 255 255"
   }
 	"PlayerStatusHealthValueSpecguiLow"
@@ -84,7 +84,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"DefaultNumber"
+		"font"					"M0refont10"
 		"fgcolor"		    "0 0 0 0"
 	}								
 }

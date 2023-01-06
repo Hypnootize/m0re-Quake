@@ -68,7 +68,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"M0refont24"
+		"font"			"M0refont18"
 		"fgcolor"   "255 255 255 255"
 	}
 	"AccountValueShadow"
@@ -89,7 +89,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"M0refont24"
+		"font"			"M0refont18"
 		"fgcolor"   "0 0 0 255"
 	}
 }

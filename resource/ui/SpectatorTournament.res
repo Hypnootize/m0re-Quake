@@ -151,7 +151,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"default"
+				"font"			"M0refont10"
 				"xpos"			"15"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -192,7 +192,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"defaultsmall"
+				"font"			"M0refont10"
 				"xpos"			"99"
 				"ypos"			"1"
 				"zpos"			"20"

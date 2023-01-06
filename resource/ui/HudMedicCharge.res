@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelbig"
-		"xpos"			"c68"
+		"xpos"			"c70"
 		"ypos"			"c60"
 		"zpos"			"2"
 		"wide"			"200"
@@ -78,15 +78,15 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"M0refont72"
-		"fgcolor"   "255 255 255 255"
+		"font"			"M0refont36"
+		"fgcolor"   	"255 255 255 255"
 	}
 	
 	"ChargeLabelshadowbig"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelshadowbig"
-		"xpos"			"c69"
+		"xpos"			"c72"
 		"ypos"			"c62"
 		"zpos"			"2"
 		"wide"			"200"
@@ -100,8 +100,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"M0refont72"
-		"fgcolor"   "0 0 0 255"
+		"font"			"M0refont36"
+		"fgcolor"   	"0 0 0 255"
 	}	
 	"ChargeMeter"
 	{	
